@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0072)https://undangankuwebsite.webinvit.id/deva-dan-anggit?to=Etik%20Nazdifah -->
 <html lang="id" class="notranslate" translate="no">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -51,13 +50,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
 
     <!-- css -->
-    <link rel="stylesheet" href="./file/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="./file/style.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style.css" /> -->
 
-    <link rel="preload" as="style" href="./file/bootstrap-vCaDZZbr.css" />
-    <link rel="preload" as="style" href="./file/themesv2-DZZF_N8v.css" />
-    <link rel="stylesheet" href="./file/bootstrap-vCaDZZbr.css" />
-    <link rel="stylesheet" href="./file/themesv2-DZZF_N8v.css" />
+    <link rel="preload" as="style" href="./css/bootstrap.min.css" />
+    <link rel="preload" as="style" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css"
@@ -121,43 +120,6 @@
         display: none;
       }
     </style>
-    <!-- <style>
-      #preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-      }
-
-      /* Spinner */
-      .spinner {
-        width: 50px;
-        height: 50px;
-        border: 5px solid #ccc;
-        border-top-color: #3498db;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-
-      /* Animasi berputar */
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      /* Konten utama disembunyikan dulu */
-      #content {
-        display: none;
-      }
-    </style> -->
-    <!--  font -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -184,7 +146,7 @@
         line-height: 3 !important;
       }
     </style>
-    <style>
+    <!-- <style>
       .noty_layout_mixin,
       #noty_layout__top,
       #noty_layout__topLeft,
@@ -926,7 +888,7 @@
         background-color: #06d6a0;
         color: #fff;
       }
-    </style>
+    </style> -->
 
     <style>
       #preloader {
@@ -976,7 +938,7 @@
           <span class="loader"><span class="loader-inner"></span></span>
         </div>
         <audio id="music" loop="loop" autoplay="autoplay">
-          <source src="music/bermuara.mp3" />
+          <source src="music/song.mp3" />
         </audio>
         <div
           id="workspace-container"
@@ -1004,10 +966,12 @@
                 >
                   <div class="satumomen_track">
                     <ul class="satumomen_list">
-                      <li class="satumomen_slide satumomen_cover" style="">
+                      <li class="satumomen_slide satumomen_cover">
                         <div
                           class="container-mobile cover"
-                          style="background-image: url('file/bga.webp')"
+                          style="
+                            background-image: url('images/background/bga.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -1021,7 +985,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1039,7 +1003,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1057,7 +1021,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1075,7 +1039,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1083,7 +1047,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -1093,7 +1057,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -1211,7 +1175,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -1225,7 +1191,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1243,7 +1209,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1261,7 +1227,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1279,7 +1245,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1287,7 +1253,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -1297,7 +1263,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -1381,7 +1347,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -1395,7 +1363,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1413,7 +1381,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1431,7 +1399,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1449,7 +1417,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1457,7 +1425,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -1467,7 +1435,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -1544,7 +1512,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -1558,7 +1528,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1576,7 +1546,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1594,7 +1564,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1612,7 +1582,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1620,7 +1590,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -1630,7 +1600,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -1765,7 +1735,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -1779,7 +1751,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1797,7 +1769,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1815,7 +1787,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1833,7 +1805,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -1841,7 +1813,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -1851,7 +1823,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -1874,17 +1846,19 @@
                                     margin: auto auto 20px;
                                     border-radius: 10px;
                                     overflow: hidden;
-                                    padding-bottom: 70%;
+                                    aspect-ratio: 4 / 3;
                                     position: relative;
+                                    border: 2px solid #ccc;
                                   "
                                 >
                                   <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1122.054028974167!2d110.45652621219035!3d-8.009663630167193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMDAnMzUuMiJTIDExMMKwMjcnMjYuMCJF!5e0!3m2!1sid!2sid!4v1747638512168!5m2!1sid!2sid"
                                     width="100%"
                                     height="100%"
-                                    allowfullscreen="allowfullscreen"
-                                    src="./file/place.html"
-                                    class="maps-embed"
-                                    style="border: 0px; position: absolute"
+                                    style="border: 0; position: absolute"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
                                   ></iframe>
                                 </div>
                                 <button
@@ -1926,395 +1900,11 @@
                       </li>
                       <!-- galery -->
                       <!-- <li class="satumomen_slide" style="display: none">
-                      <div
-                        class="container-mobile"
-                        style="background-image: url('file/bg.webp')"
-                      >
-                        <div class="frame">
-                          <div
-                            class="frame-tl animate-right"
-                            style="width: 55%; transform: translate(-3%, -10%)"
-                          >
-                            <div
-                              class="animate__animated animate__fadeInTopLeft animate__slower"
-                            >
-                              <img
-                                src="./file/top.webp"
-                                alt="flowers"
-                                draggable="false"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                          <div
-                            class="frame-tr animate-right"
-                            style="
-                              width: 55%;
-                              transform: translate(3%, -10%) scaleX(-1);
-                            "
-                          >
-                            <div
-                              class="animate__animated animate__fadeInTopLeft animate__slower"
-                            >
-                              <img
-                                src="./file/top.webp"
-                                alt="flowers"
-                                draggable="false"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                          <div
-                            class="frame-bl animate-left"
-                            style="width: 55%; transform: translate(-11%, 13%)"
-                          >
-                            <div
-                              class="animate__animated animate__fadeInBottomLeft animate__slower"
-                            >
-                              <img
-                                src="./file/bottom.webp"
-                                alt="flowers"
-                                draggable="false"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                          <div
-                            class="frame-br animate-left"
-                            style="
-                              width: 55%;
-                              transform: translate(11%, 13%) scaleX(-1);
-                            "
-                          >
-                            <div
-                              class="animate__animated animate__fadeInBottomLeft animate__slower"
-                            >
-                              <img
-                                src="./file/bottom.webp"
-                                alt="flowers"
-                                draggable="false"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                          <img
-                            src="./file/gate-kiri.webp"
-                            alt="frame"
-                            class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
-                            style="
-                              z-index: 9;
-                              height: 100%;
-                              animation-delay: 1s;
-                            "
-                          />
-                          <img
-                            src="./file/gate-kanan.webp"
-                            alt="frame"
-                            class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
-                            style="
-                              z-index: 9;
-                              height: 100%;
-                              animation-delay: 1s;
-                            "
-                          />
-                        </div>
-                        <div
-                          class="d-flex justify-content-center align-items-center"
-                          style="height: 100%"
-                        >
-                          <div style="width: 100%">
-                            <div
-                              class="text-center mb-4 animate__animated animate__fadeInDown animate__slower"
-                            >
-                              <div
-                                class="color-accent h4 mb-2 editable font-weight-bold"
-                                style="font-size: 28.8px"
-                              >
-                                Our Memories
-                              </div>
-                            </div>
-                            <div class="image-editable d-flex flex-wrap">
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  class="light"
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-l0OUMIPlWi.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-3VAjNxF7bE.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-iiUIKzY9Fd.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 129px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-kFgE6yzLsR.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 66.67%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 129px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-nggVHeEB1J.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 66.67%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 129px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-aVZhAtxsY5.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 129px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-AUzuqJ298k.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-zWLSaEgtar.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-wBBVMYLFyw.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                class="animate__animated animate__zoomIn animate__slower"
-                                style="
-                                  width: 33.33%;
-                                  overflow: hidden;
-                                  padding: 4px;
-                                "
-                              >
-                                <div
-                                  style="
-                                    overflow: hidden;
-                                    width: 100%;
-                                    height: 100px;
-                                  "
-                                >
-                                  <img
-                                    src="./file/505653-gallery-6OC5hOb2na.jpg"
-                                    alt="no-image.jpg"
-                                    class="lightbox"
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      object-fit: cover;
-                                    "
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li> -->
-                      <!-- end galery -->
-                      <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -2328,7 +1918,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2346,7 +1936,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2364,7 +1954,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2382,7 +1972,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2390,7 +1980,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -2400,7 +1990,401 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
+                              alt="frame"
+                              class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
+                              style="
+                                z-index: 9;
+                                height: 100%;
+                                animation-delay: 1s;
+                              "
+                            />
+                          </div>
+                          <div
+                            class="d-flex justify-content-center align-items-center"
+                            style="height: 100%"
+                          >
+                            <div style="width: 100%">
+                              <div
+                                class="text-center mb-4 animate__animated animate__fadeInDown animate__slower"
+                              >
+                                <div
+                                  class="color-accent h4 mb-2 editable font-weight-bold"
+                                  style="font-size: 28.8px"
+                                >
+                                  Our Memories
+                                </div>
+                              </div>
+                              <div class="image-editable d-flex flex-wrap">
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    class="light"
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/1.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/2.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/3.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 129px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/4.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 66.67%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 129px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/5.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 66.67%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 129px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/6.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 129px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/7.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/8.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/9.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="animate__animated animate__zoomIn animate__slower"
+                                  style="
+                                    width: 33.33%;
+                                    overflow: hidden;
+                                    padding: 4px;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      overflow: hidden;
+                                      width: 100%;
+                                      height: 100px;
+                                    "
+                                  >
+                                    <img
+                                      src="./images/galery/10.jpg"
+                                      alt="no-image.jpg"
+                                      class="lightbox"
+                                      style="
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                      "
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li> -->
+                      <!-- end galery -->
+                      <li class="satumomen_slide" style="display: none">
+                        <div
+                          class="container-mobile"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
+                        >
+                          <div class="frame">
+                            <div
+                              class="frame-tl animate-right"
+                              style="
+                                width: 55%;
+                                transform: translate(-3%, -10%);
+                              "
+                            >
+                              <div
+                                class="animate__animated animate__fadeInTopLeft animate__slower"
+                              >
+                                <img
+                                  src="./images/furniture/top.webp"
+                                  alt="flowers"
+                                  draggable="false"
+                                  class="w-100"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="frame-tr animate-right"
+                              style="
+                                width: 55%;
+                                transform: translate(3%, -10%) scaleX(-1);
+                              "
+                            >
+                              <div
+                                class="animate__animated animate__fadeInTopLeft animate__slower"
+                              >
+                                <img
+                                  src="./images/furniture/top.webp"
+                                  alt="flowers"
+                                  draggable="false"
+                                  class="w-100"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="frame-bl animate-left"
+                              style="
+                                width: 55%;
+                                transform: translate(-11%, 13%);
+                              "
+                            >
+                              <div
+                                class="animate__animated animate__fadeInBottomLeft animate__slower"
+                              >
+                                <img
+                                  src="./images/furniture/bottom.webp"
+                                  alt="flowers"
+                                  draggable="false"
+                                  class="w-100"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="frame-br animate-left"
+                              style="
+                                width: 55%;
+                                transform: translate(11%, 13%) scaleX(-1);
+                              "
+                            >
+                              <div
+                                class="animate__animated animate__fadeInBottomLeft animate__slower"
+                              >
+                                <img
+                                  src="./images/furniture/bottom.webp"
+                                  alt="flowers"
+                                  draggable="false"
+                                  class="w-100"
+                                />
+                              </div>
+                            </div>
+                            <img
+                              src="./images/furniture/gate-kiri.webp"
+                              alt="frame"
+                              class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
+                              style="
+                                z-index: 9;
+                                height: 100%;
+                                animation-delay: 1s;
+                              "
+                            />
+                            <img
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -2518,7 +2502,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -2532,7 +2518,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2550,7 +2536,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2568,7 +2554,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2586,7 +2572,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2594,7 +2580,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -2604,7 +2590,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -2659,7 +2645,7 @@
                                         style="width: 80px; overflow: hidden"
                                       >
                                         <img
-                                          src="./file/logo-bca-biru-1687975058.png"
+                                          src="./images/logo/logo-bca.png"
                                           alt="no-image.jpg"
                                           style="
                                             width: 100%;
@@ -2704,7 +2690,7 @@
                                         style="width: 80px; overflow: hidden"
                                       >
                                         <img
-                                          src="./file/seabank-logo-1688182876.png"
+                                          src="./images/logo/logo-seabank.png"
                                           alt="no-image.jpg"
                                           style="
                                             width: 100%;
@@ -2753,7 +2739,9 @@
                       <li class="satumomen_slide" style="display: none">
                         <div
                           class="container-mobile"
-                          style="background-image: url('file/bg.webp')"
+                          style="
+                            background-image: url('images/background/bg.webp');
+                          "
                         >
                           <div class="frame">
                             <div
@@ -2767,7 +2755,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2785,7 +2773,7 @@
                                 class="animate__animated animate__fadeInTopLeft animate__slower"
                               >
                                 <img
-                                  src="./file/top.webp"
+                                  src="./images/furniture/top.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2803,7 +2791,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="/media/yusuf/Data/WORK/Undangan Nikah/TEMPLATE UTAMA/UTAMA/ke 2/index.html/media/yusuf/Data/WORK/Undangan Nikah/TEMPLATE UTAMA/UTAMA/ke 2/index.html"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2821,7 +2809,7 @@
                                 class="animate__animated animate__fadeInBottomLeft animate__slower"
                               >
                                 <img
-                                  src="./file/bottom.webp"
+                                  src="./images/furniture/bottom.webp"
                                   alt="flowers"
                                   draggable="false"
                                   class="w-100"
@@ -2829,7 +2817,7 @@
                               </div>
                             </div>
                             <img
-                              src="./file/gate-kiri.webp"
+                              src="./images/furniture/gate-kiri.webp"
                               alt="frame"
                               class="frame-out frame-tl animate__animated animate__slideOutLeft animate__slower"
                               style="
@@ -2839,7 +2827,7 @@
                               "
                             />
                             <img
-                              src="./file/gate-kanan.webp"
+                              src="./images/furniture/gate-kanan.webp"
                               alt="frame"
                               class="frame-out frame-tr animate__animated animate__slideOutRight animate__slower"
                               style="
@@ -2928,7 +2916,10 @@
                                 <p
                                   class="mb-1 animate__animated animate__fadeInUp animate__slower small animate__delay-1s"
                                 >
-                                  Made with ❤️ by bahagiakita
+                                  Made with ❤️ by
+                                  <a href="https://bahagiakita.github.io"
+                                    >bahagiakita</a
+                                  >
                                 </p>
                                 <!-- <div
                                 class="d-flex align-items-center justify-content-center animate__animated animate__fadeInUp animate__slower animate__delay-1s"
@@ -2940,7 +2931,7 @@
                                     rel="nofollow"
                                     class="icon d-block"
                                     ><img
-                                      src="./file/instagram.webp"
+                                      src="./images/logo/instagram.webp"
                                       alt="instagram"
                                       height="26px"
                                       width="26px"
@@ -3025,18 +3016,18 @@
                       <span>Maps</span>
                     </li>
                     <!-- <li class="satumomen_menu_item" style="max-width: 82.8px">
-                    <i
-                      class="bi bi-image-fill"
-                      style="color: currentColor; font-size: 1.3rem"
-                    ></i>
-                    <span>Gallery</span>
-                  </li> -->
+                      <i
+                        class="bi bi-image-fill"
+                        style="color: currentColor; font-size: 1.3rem"
+                      ></i>
+                      <span>Gallery</span>
+                    </li> -->
                     <li class="satumomen_menu_item" style="max-width: 82.8px">
                       <i
                         class="bi bi-stopwatch-fill"
                         style="color: currentColor; font-size: 1.3rem"
                       ></i>
-                      <span>Menghitung Hari</span>
+                      <span>Menanti</span>
                     </li>
                     <li class="satumomen_menu_item" style="max-width: 82.8px">
                       <i
@@ -3574,9 +3565,10 @@
         if (urlGroup) satuMomen.dataset.group = decodeURIComponent(urlGroup);
       }
     </script>
-    <script src="./file/theme-app.js"></script>
+    <!-- <script src="./js/theme-app.js"></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
 
-    <script src="./file/themesv2.js"></script>
+    <script src="./js/themesv2.js"></script>
 
     <script>
       var notSupport = document.getElementById("notSupport");
